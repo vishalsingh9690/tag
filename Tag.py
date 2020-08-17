@@ -3,7 +3,7 @@ import requests
 scr2 = "google_tag.script"
 match_url = "https://www.googletagmanager.com/gtm.js"
 
-url_lists = [{"url":"https://hcp.galdermaaesthetics.com","key":"GTM-PDMJZSR"},{"url":"https://www.galdermaaesthetics.com","key":"GTM-TZH46DX"},{"url":"https://www.galdermaaesthetics.com.br","key":"GTM-PW8P8KC"},{"url":"https://www.galdermaaesthetics.com.au","key":"GTM-5KRXZFD"}]
+url_lists = [{"url":"https://hcp.galdermaaesthetics.com","key":"GTM-PDMJZSRvis"},{"url":"https://www.galdermaaesthetics.com","key":"GTM-TZH46DX"},{"url":"https://www.galdermaaesthetics.com.br","key":"GTM-PW8P8KC"},{"url":"https://www.galdermaaesthetics.com.au","key":"GTM-5KRXZFD"}]
 
 for url_list in url_lists:
 	url = url_list['url']
